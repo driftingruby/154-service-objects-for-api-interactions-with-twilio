@@ -1,0 +1,25 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dotenv (2.5.0)
+    faraday (0.15.3)
+      multipart-post (>= 1.2, < 3)
+    jwt (2.1.0)
+    mini_portile2 (2.3.0)
+    multipart-post (2.0.0)
+    nokogiri (1.8.5)
+      mini_portile2 (~> 2.3.0)
+    twilio-ruby (5.14.1)
+      faraday (~> 0.9)
+      jwt (>= 1.5, <= 2.5)
+      nokogiri (>= 1.6, < 2.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotenv
+  twilio-ruby
+
+BUNDLED WITH
+   1.16.6
